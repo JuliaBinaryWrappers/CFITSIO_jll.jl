@@ -18,7 +18,7 @@ libcfitsio_path = ""
 libcfitsio_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libcfitsio = "libcfitsio.so.8"
+const libcfitsio = "libcfitsio.so.9"
 
 
 """

@@ -8,7 +8,7 @@ LIBPATH = ""
 LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 
 # Relative path to `libcfitsio`
-const libcfitsio_splitpath = ["lib", "libcfitsio.8.3.47.dylib"]
+const libcfitsio_splitpath = ["lib", "libcfitsio.9.3.48.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libcfitsio_path = ""
@@ -18,7 +18,7 @@ libcfitsio_path = ""
 libcfitsio_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libcfitsio = "@rpath/libcfitsio.8.dylib"
+const libcfitsio = "@rpath/libcfitsio.9.dylib"
 
 
 """
