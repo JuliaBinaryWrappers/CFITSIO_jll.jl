@@ -1,11 +1,14 @@
 name = "CFITSIO_jll"
 uuid = "b3e40c51-02ae-5482-8a39-3ace5868dcf4"
-version = "3.48.0+0"
+version = "3.49.0+0"
 
 [deps]
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 LibCURL_jll = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
+JLLWrappers = "1.2.0"
 julia = "1.0"

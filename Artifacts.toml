@@ -1,113 +1,115 @@
 [[CFITSIO]]
-arch = "i686"
-git-tree-sha1 = "dfebba948202d403e6b473b8cfde3009128c8af9"
-libc = "musl"
+arch = "aarch64"
+git-tree-sha1 = "fa0b5216e0a4e80fc19190be06e4d59c807f85fc"
+libc = "glibc"
 os = "linux"
 
     [[CFITSIO.download]]
-    sha256 = "1f5c0fd344a63b598eebf37840ce3eefca578fa5c8b8126734859b2e7d62e445"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.i686-linux-musl.tar.gz"
+    sha256 = "978e316fdb1500862ab3ced3055d31efce620140b01f80a639a9e257f901e97e"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.aarch64-linux-gnu.tar.gz"
 [[CFITSIO]]
 arch = "aarch64"
-git-tree-sha1 = "2b7eab9584c2a4d19a19a3479dc780ca60bdabfc"
+git-tree-sha1 = "2dde3d25f213060f41b9854e8e2b512bbbd35ef3"
 libc = "musl"
 os = "linux"
 
     [[CFITSIO.download]]
-    sha256 = "56d6ca57ce007a11c5350899615a2c4eef87c050ba99f4aac6548e9e1fcc495c"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.aarch64-linux-musl.tar.gz"
-[[CFITSIO]]
-arch = "i686"
-git-tree-sha1 = "da40c0d12c5bd4318bc347b68d6bf22522ffe6f1"
-os = "windows"
-
-    [[CFITSIO.download]]
-    sha256 = "95ff60da7bb82bd99d0e44c650494d6755bcded15759da9a58884a826894c50e"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.i686-w64-mingw32.tar.gz"
-[[CFITSIO]]
-arch = "x86_64"
-git-tree-sha1 = "f8556e3e16c4cd24d1bfb3adf2fe8b4ad3aab789"
-os = "windows"
-
-    [[CFITSIO.download]]
-    sha256 = "b4da925f46561dc88937e79098aa82648a75081928dc6e3c3f7c3d13eda5f2c8"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "f541324efcbad45f8d0bb0e727501579af003a9d9fced70059c3e54928d99c13"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.aarch64-linux-musl.tar.gz"
 [[CFITSIO]]
 arch = "armv7l"
-git-tree-sha1 = "243451386f30dac639a55cff2fc27785c18ef0c4"
+call_abi = "eabihf"
+git-tree-sha1 = "27c1d06d335366b85b70dfbeac6be5c5f9368e6d"
 libc = "glibc"
 os = "linux"
 
     [[CFITSIO.download]]
-    sha256 = "c5ca44bfaa8ad4556622775c3cc1d13e38c09a49ef92a74f9907f85a6dfb1504"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "e931b084aabe40a472683dbd9b1da4e08fb921bc37c9bdcc2ae952cf579aa91c"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.armv7l-linux-gnueabihf.tar.gz"
 [[CFITSIO]]
 arch = "armv7l"
-git-tree-sha1 = "bc33fd89f337e592c1cc4ac1a4b713bf53d67797"
+call_abi = "eabihf"
+git-tree-sha1 = "59d19f4000c7e0e7237eba7e28ae3c931d58643b"
 libc = "musl"
 os = "linux"
 
     [[CFITSIO.download]]
-    sha256 = "a4c23592d4832768d2207cc4cdc646fab2b9db9e59a00ce2c09ded5e53bbbfa4"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "da3376c286711f82e4f759295a2a4eeec690bb9f6ed36bf87d78267e07621d3e"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.armv7l-linux-musleabihf.tar.gz"
 [[CFITSIO]]
 arch = "i686"
-git-tree-sha1 = "fb7ea4be06cccb7b737e36ea92ce3b97708210ec"
+git-tree-sha1 = "3d27a85394376f8ab12269fc0317d81c15233d34"
 libc = "glibc"
 os = "linux"
 
     [[CFITSIO.download]]
-    sha256 = "15a2b3db7b8189f877d1eb40d8ae6bfd1d58c9ed8b0abd96cb6adb2702fcb7d5"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.i686-linux-gnu.tar.gz"
+    sha256 = "c800f69a5e7156ea7c3180f94f1463b94c42d3f60f07951edf90a482b27769e5"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.i686-linux-gnu.tar.gz"
 [[CFITSIO]]
-arch = "x86_64"
-git-tree-sha1 = "f86f7413f814d3a5ad5a64b46344ba27dd22e151"
-libc = "glibc"
+arch = "i686"
+git-tree-sha1 = "a07f0651caf1b39e869c4626b5fd8b83b6675820"
+libc = "musl"
 os = "linux"
 
     [[CFITSIO.download]]
-    sha256 = "437b5ed9fef65e83664feeebafb87c5d0771adedaf3a770a81d2af5924665588"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "85d68be7000a55bc91635bd5547c8c359aa61fe968db3f65cb73f8cccba282e2"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.i686-linux-musl.tar.gz"
+[[CFITSIO]]
+arch = "i686"
+git-tree-sha1 = "bcf3e66dc1386d8e2b35f6b081062fee265b1478"
+os = "windows"
+
+    [[CFITSIO.download]]
+    sha256 = "be72064200d947cec1141d79003e5cbcb1411bf2cc2046818af70da0445bd3d3"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.i686-w64-mingw32.tar.gz"
 [[CFITSIO]]
 arch = "powerpc64le"
-git-tree-sha1 = "02b6ba8c17ca250fe9c59b2142f447c0a38f5a08"
+git-tree-sha1 = "cf4208343c5bf3d9c4cdd6a422ef5e6142038b6e"
 libc = "glibc"
 os = "linux"
 
     [[CFITSIO.download]]
-    sha256 = "4d97443508970348469e87c2877337cc3a69a60dd542d744202033caba49cb98"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "b541be27e19454f6553815602f1b122a9ce1db2c4d7310cad6ed32339458c93a"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.powerpc64le-linux-gnu.tar.gz"
 [[CFITSIO]]
 arch = "x86_64"
-git-tree-sha1 = "fe2ca51f870f480536b749e0ff070f6c70e0f239"
+git-tree-sha1 = "13b61d4ee8903ae014086bb6c90bd4c7f0dac34c"
 os = "macos"
 
     [[CFITSIO.download]]
-    sha256 = "a9d3a26d584d227b48b777f29f8bb2dcb681cc9e6f7b9385beb7574f5c388482"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "36036d72bbe616527fe61c6683b51e34652f4597f417318b5301217d161dfb09"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.x86_64-apple-darwin.tar.gz"
 [[CFITSIO]]
-arch = "aarch64"
-git-tree-sha1 = "9301a76b9bf74158d59e86a13cf504f1ed0a1f5b"
+arch = "x86_64"
+git-tree-sha1 = "aa5f51d5aa288c351344d577848b9ebe81fc2b65"
 libc = "glibc"
 os = "linux"
 
     [[CFITSIO.download]]
-    sha256 = "c99e04ebd2996c4ac2137d3ac75ae55a19d8158545c3260926833184f1591a50"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "4f672e776f4e0999ca92b3de08830dfb80959fec7a075f53c663685f4b94b843"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.x86_64-linux-gnu.tar.gz"
 [[CFITSIO]]
 arch = "x86_64"
-git-tree-sha1 = "1c3ff23d496858d70efd50940f5a2e37943584dd"
-os = "freebsd"
-
-    [[CFITSIO.download]]
-    sha256 = "6e3299c29fecb0e1b472452056c952456b698032a0f93acf4569504eb27dcf68"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.x86_64-unknown-freebsd11.1.tar.gz"
-[[CFITSIO]]
-arch = "x86_64"
-git-tree-sha1 = "3e47712bc3107274e4a06aca0e8956d4fb2c95ce"
+git-tree-sha1 = "707a93fa3d990db496966538ed49e9ba8a464548"
 libc = "musl"
 os = "linux"
 
     [[CFITSIO.download]]
-    sha256 = "11808e92bb105368dd4466faee46291315428fff0bf39e8cb94e422d21115921"
-    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.48.0+0/CFITSIO.v3.48.0.x86_64-linux-musl.tar.gz"
+    sha256 = "b7bcf5d6d3dd9c9b7c2ba3e7f34c7a09c8064a413da652a0ff5523d4bf9a0c80"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.x86_64-linux-musl.tar.gz"
+[[CFITSIO]]
+arch = "x86_64"
+git-tree-sha1 = "838749d47bc1277e92a1fdd35e6a74542be8b96f"
+os = "freebsd"
+
+    [[CFITSIO.download]]
+    sha256 = "3269e9ab25ab7df71f9303346191b1886f69fa415dd59e99809eb4e20ca80d1f"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.x86_64-unknown-freebsd.tar.gz"
+[[CFITSIO]]
+arch = "x86_64"
+git-tree-sha1 = "63add26a3a6c4f4fed2a10aedb4345c816148a88"
+os = "windows"
+
+    [[CFITSIO.download]]
+    sha256 = "71453e4ef3424d2ab3cd47d5f3ff836f09243ae54bef4bebec1e3c3163d7fe5d"
+    url = "https://github.com/JuliaBinaryWrappers/CFITSIO_jll.jl/releases/download/CFITSIO-v3.49.0+0/CFITSIO.v3.49.0.x86_64-w64-mingw32.tar.gz"
