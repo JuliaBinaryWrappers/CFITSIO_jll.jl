@@ -2,13 +2,14 @@
 export libcfitsio
 
 using LibCURL_jll
+using Zlib_jll
 JLLWrappers.@generate_wrapper_header("CFITSIO")
 JLLWrappers.@declare_library_product(libcfitsio, "@rpath/libcfitsio.9.dylib")
 function __init__()
-    JLLWrappers.@generate_init_header(LibCURL_jll)
+    JLLWrappers.@generate_init_header(LibCURL_jll, Zlib_jll)
     JLLWrappers.@init_library_product(
         libcfitsio,
-        "lib/libcfitsio.9.3.49.dylib",
+        "lib/libcfitsio.9.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
