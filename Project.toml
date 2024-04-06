@@ -1,6 +1,6 @@
 name = "CFITSIO_jll"
 uuid = "b3e40c51-02ae-5482-8a39-3ace5868dcf4"
-version = "4.3.1+1"
+version = "4.4.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
